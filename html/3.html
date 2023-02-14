@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>three</title>
+</head>
+<body>
+    <div>
+        <form>
+            <div>
+                <label for="name">Your Name</label>
+            <input type="text" name="username" id="name" placeholder="john007" 
+            title ="username must be > 4 letters"
+            pattern="[A-Za-z0-9]{4,10}">
+            </div>
+            <div>
+                <input type="checkbox"name="accept" id="accept_cb">
+                <label for="accept_cb">do you accept</label>
+            </div>
+            <div>
+                <label for="email"> Email</label>
+                <input type="email" name="email" id="email" required autocomplete="off"
+                value="somgupta50@gmail.com" disabled>
+            </div>
+            <div>
+                <input type=""color" name="favcolor">
+                <input type="data" name="dob">
+                <input type="datetime-local" name="datetime">
+                <input type="file" name="image">
+                <input type="hidden" name="pin" value="12345">
+                <input type="image" scr="">
+                <input type="submit" value="Submit">
+                <div>
+                    <input type="radio" name="gender" value="M" id="male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" value="F" id="Female">
+                    <label for="Female">Female</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" value="F" id="other">
+                    <label for="other">other</label>
+                </div>
+            </div>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
